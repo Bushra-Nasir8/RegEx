@@ -1,0 +1,54 @@
+.............QUESTION NO# 01................
+You work in Systems Ltd.’s HR team and need to update the current employee records. You need to
+design a data collection form using Google Forms that collects quality data by applying any necessary
+validation checks and output descriptive error prompts to help the user correct any mistakes. Company
+policy mandates that any forms used for official purposes must bear the company’s complete branding
+and theming.
+
+..............SOLUTION:.....................
+
+
+For Full Name:
+
+             ([A-Z])\w+\s([A-Z])\w+\s([A-Z])\w+
+
+FOR CNIC:
+
+           ^\d{1,5}\-\d{1, 7}\-\d?
+
+For phone no:
+
+              \+\d{1, 2}\s\d{1,3}\s\d{1,7} 
+
+For Official email:
+
+             \w{1,}\.\w{1,}\@(systemsltd)\.(com)
+
+For personal email: 
+
+        ^(\w)*\@(\w)*\.(com)
+
+LinkedIn: 
+
+          ^(https://www.linkedin.com/in/)\w{1,}\/
+
+IBAN:
+
+        ^(PK55SCBL00000)\d{1,11}
+
+Department:
+
+        \w{1,50}
+
+
+
+.............QUESTION NO#02.............
+
+
+Download the attached HTML file of part of a YouTube web-page to answer the following questions.
+
+.............SOLUTION:............
+
+a. (?&lt;=https:\/\/www\.youtube\.com\/watch\?v\=)\w+\b
+b. (?&lt;=\@)\w+\b
+c. (?&lt;=url:\/\/support\.google\.com\/youtube\/answer\/)\w+\?\w+\=\w+\-\w+
